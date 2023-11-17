@@ -36,13 +36,19 @@ button {
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #808080;
+  /* background-color: #808080; */
+  background-color: #090900;
   color: #f8f8f8;
 }
-
-.btn-disabled {
-  background-color: lightgray;
+button:hover {
+  scale: 1.02;
+  transition-duration: 0.2s;
 }
+button:active {
+  scale: 0.98;
+  transition-duration: 0.2s;
+}
+
 
 li {
   list-style-type: none;
@@ -51,11 +57,13 @@ li {
   padding: 16px 8px;
   color: #000105;
   border: 1px solid lightgray;
+  border-radius: 4px;
 }
 
 .li-hover:hover {
   background-color: #d8d8d8;
   columns: #fff;
+  font-weight: 500;
 }
 
 .li-selected {
@@ -78,6 +86,7 @@ li {
 
 .quiz-container {
   background-color: #f8f8f8;
+  box-shadow: 0px 0px 2px #141414;
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 4px;
@@ -88,6 +97,9 @@ li {
 }
 
 @media only screen and (min-width: 1440px) {
+
+  
+
   .container > h1 {
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -110,5 +122,4 @@ li {
 }
 
 @media only screen and (min-width: 1024px) {
-  
 }
