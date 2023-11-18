@@ -1,7 +1,7 @@
 # Quiz Quest 🚀
 Welcome to Quiz Quest – where knowledge meets adventure! 🚀
 
-[![License](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://github.com/devashishsoni98/QuizQuest/blob/main/MIT-LICENSE.md)
+[![License](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](https://github.com/devashishsoni98/QuizQuest/blob/main/LICENSE.md)
 
 
 ## Table of Contents
